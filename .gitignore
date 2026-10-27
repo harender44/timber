@@ -1,0 +1,99 @@
+# =========================
+# Environment variables & secrets
+# =========================
+.grok
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+.npm/
+.node_modules.lock
+
+# Build output
+dist/
+build/
+.output/
+
+# =========================
+# Python
+# =========================
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python environment and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Frontend tooling caches
+# =========================
+.tanstack/
+.vite/
+.cache/
+.eslintcache
+
+# =========================
+# Deployment configuration
+# =========================
+.vercel/
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editor and IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Local development files
+# =========================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Generated artifacts
+# =========================
+# Uncomment if artifacts/ contains generated files
+# artifacts/
+
+# Uncomment if screenshots/ contains temporary screenshots
+# screenshots/
+
+# Uncomment if data/ contains generated or private data
+data/
+screenshots
